@@ -1,0 +1,74 @@
+body
+{
+    background-image: url('/access/5333978.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo
+{
+    /* border: solid 2px red; */
+    width:20rem;
+    height: 6rem;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.container
+{
+    max-width: 960px;
+    border: 2px solid black;
+    background-image: url('/access/14092.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    height: 78vh;
+    overflow-y: auto;
+    /* overflow-x:scroll; */
+    border-radius: 1rem;
+}
+.message
+{
+    background-color:rgb(193 227 171);
+    width: 24%;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: 17px 23px;
+    padding: 8px 7px;
+    font-weight: bolder;
+    letter-spacing: 0.2px;
+    font-family: 'Baloo Bhaijaan 2';
+}
+.left
+{
+    float: left;
+    clear: both;
+}
+.right
+{
+    float: right;
+    clear: both;
+}
+#send-container
+{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+}
+#messageInp
+{
+    width: 91%;
+    margin: 3px 3px;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 30px;
+}
+.btn
+{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 30px;
+}
