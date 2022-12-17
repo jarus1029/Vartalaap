@@ -1,13 +1,15 @@
 body
 {
-    background-image: url('/access/5333978.jpg');
+    
+    background: #2b007c;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .logo
 {
     /* border: solid 2px red; */
-    width:20rem;
+    width:14rem;
+    padding: 10px 10px;
     height: 6rem;
     display: block;
     margin: auto;
@@ -18,10 +20,10 @@ body
 {
     max-width: 960px;
     border: 2px solid black;
-    background-image: url('/access/14092.jpg');
+    background-image: url('/access/inchatbg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    margin: auto;
+    margin: 11px 268px;
     height: 78vh;
     overflow-y: auto;
     /* overflow-x:scroll; */
@@ -71,4 +73,5 @@ body
     border: 2px solid black;
     border-radius: 5px;
     height: 30px;
+    background-color: yellow;
 }
